@@ -9,10 +9,11 @@ Este README tem como objetivo fornecer uma visão abrangente sobre o uso do PHP 
 O PHP é uma linguagem de script amplamente utilizada para o desenvolvimento web. Sua principal característica é a incorporação de código diretamente no HTML, permitindo a criação de páginas dinâmicas e interativas. A seguir, abordaremos as principais tags PHP e como elas funcionam.
 
 ## Tags PHP Principais
-
 | Tag                        | Descrição                                   |
 | -------------------------- | ------------------------------------------- |
 | `<?php ... ?>`             | Define o bloco principal do código PHP.     |
+| `<? ... ?>`                | Tag curta equivalente a `<?php ... ?>`.     |
+| `<?= $variavel; ?>`        | Exibe o valor de uma variável (equivalente a `<?php echo $variavel; ?>`). |
 | `echo "texto";`             | Exibe texto ou variáveis na saída.          |
 | `$variavel = valor;`        | Declaração e atribuição de variável.        |
 | `if (condição) { ... }`    | Estrutura condicional para tomada de decisão.|
@@ -28,6 +29,7 @@ O PHP é uma linguagem de script amplamente utilizada para o desenvolvimento web
 | `require "arquivo.php";`   | Semelhante ao `include`, mas gera um erro fatal se o arquivo não puder ser incluído.|
 | `// Comentário`             | Comentário de uma linha.                    |
 | `/* Comentário de bloco */` | Comentário de bloco que pode se estender por várias linhas.|
+
 
 
 ### Tag de Abertura e Fechamento
