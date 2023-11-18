@@ -116,3 +116,50 @@ Bem-vindo à Landing Page simples em PHP! Esta página inclui um formulário de 
 ```
    cd landing-page-php
 ```
+# CRUD em PHP
+
+Aqui está uma tabela simples explicando as operações CRUD básicas em PHP.
+
+| Operação | Descrição |
+| ---------| -----------|
+| **Create**| Criação de novos registros no banco de dados. Geralmente, é implementado usando um formulário HTML para coletar dados do usuário e um script PHP para inserir esses dados no banco de dados. |
+| **Read**  | Leitura de registros existentes no banco de dados. Pode incluir a exibição de uma lista de registros ou a exibição detalhada de um registro específico. Utiliza consultas SQL SELECT e PHP para exibir os dados na interface do usuário. |
+| **Update**| Atualização de registros existentes no banco de dados. Normalmente, envolve a apresentação de um formulário preenchido com os dados atuais do registro e a atualização desses dados com base nas alterações feitas pelo usuário. Utiliza consultas SQL UPDATE e PHP para realizar as alterações. |
+| **Delete**| Exclusão de registros existentes no banco de dados. Pode ser implementado usando um botão "Excluir" em conjunto com uma confirmação do usuário para evitar exclusões acidentais. Utiliza consultas SQL DELETE e PHP para realizar a exclusão. |
+
+## Exemplo Prático
+
+Vamos ver um exemplo prático de um CRUD em PHP utilizando MySQL como banco de dados.
+
+### Create (Inserir)
+
+Para inserir dados no banco de dados, você pode usar algo assim:
+
+```php
+<?php
+// Conexão com o banco de dados
+$mysqli = new mysqli("localhost", "usuario", "senha", "nome_do_banco");
+
+// Verifica a conexão
+if ($mysqli->connect_error) {
+    die("Conexão falhou: " . $mysqli->connect_error);
+}
+
+// Dados do formulário
+$nome = $_POST["nome"];
+$email = $_POST["email"];
+
+// Inserção no banco de dados
+$sql = "INSERT INTO usuarios (nome, email) VALUES ('$nome', '$email')";
+$result = $mysqli->query($sql);
+
+if ($result) {
+    echo "Registro inserido com sucesso!";
+} else {
+    echo "Erro ao inserir registro: " . $mysqli->error;
+}
+
+// Fecha a conexão
+$mysqli->close();
+?>
+```
