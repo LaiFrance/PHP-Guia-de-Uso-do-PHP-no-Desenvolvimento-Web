@@ -10,6 +10,26 @@ O PHP é uma linguagem de script amplamente utilizada para o desenvolvimento web
 
 ## Tags PHP Principais
 
+| Tag                        | Descrição                                   |
+| -------------------------- | ------------------------------------------- |
+| `<?php ... ?>`             | Define o bloco principal do código PHP.     |
+| `echo "texto";`             | Exibe texto ou variáveis na saída.          |
+| `$variavel = valor;`        | Declaração e atribuição de variável.        |
+| `if (condição) { ... }`    | Estrutura condicional para tomada de decisão.|
+| `else { ... }`             | Bloco executado se a condição não for verdadeira.|
+| `elseif (outra condição) { ... }` | Bloco executado se a primeira condição não for verdadeira, mas a segunda for verdadeira. |
+| `while (condição) { ... }` | Loop que executa enquanto a condição for verdadeira.|
+| `for (inicialização; condição; incremento) { ... }` | Loop que executa até que a condição seja falsa, geralmente usado com uma variável de iteração.|
+| `foreach ($array as $valor) { ... }` | Loop que itera sobre cada elemento em um array.|
+| `switch ($variavel) { case valor: ... break; default: ... }` | Estrutura de seleção que compara o valor de uma variável com vários casos.|
+| `function nome() { ... }`  | Define uma função.                           |
+| `return valor;`             | Retorna um valor de uma função.              |
+| `include "arquivo.php";`   | Inclui o conteúdo de outro arquivo no código.|
+| `require "arquivo.php";`   | Semelhante ao `include`, mas gera um erro fatal se o arquivo não puder ser incluído.|
+| `// Comentário`             | Comentário de uma linha.                    |
+| `/* Comentário de bloco */` | Comentário de bloco que pode se estender por várias linhas.|
+
+
 ### Tag de Abertura e Fechamento
 Para incorporar código PHP em um documento, você deve usar as tags de abertura `<?php` e de fechamento `?>`. Todo o código PHP deve estar contido entre essas tags.
 
