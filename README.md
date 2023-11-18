@@ -1,5 +1,5 @@
 # PHP-
-# Guia de Uso do PHP no Desenvolvimento Web
+# Guia de Uso do PHP no Desenvolvimento Web + mini landing page
 <img src="https://github.com/LaiFrance/PHP-/assets/91226847/7a4bf445-071a-46ec-b8a7-7e136c8faa27" alt="OIG (2)" width="200" height="200">
 
 ## Introdução
