@@ -100,3 +100,19 @@ Incorporar PHP em documentos HTML é simples. Basta utilizar as tags de abertura
 
 Este é apenas um guia inicial sobre o uso do PHP no desenvolvimento web. Consulte a [documentação oficial do PHP](https://www.php.net/docs.php) para obter informações mais detalhadas e avançadas.
 
+# Landing Page PHP
+
+Bem-vindo à Landing Page simples em PHP! Esta página inclui um formulário de inscrição básico que coleta o nome e o endereço de e-mail do usuário.
+
+## Como Usar
+
+1. Clone o repositório para o seu ambiente de desenvolvimento local:
+
+   ```bash
+   git clone https://github.com/LaiFrance/PHP-Guia-de-Uso-do-PHP-no-Desenvolvimento-Web.git
+
+   ```
+   Navegue até o diretório do projeto:
+```
+   cd landing-page-php
+```
