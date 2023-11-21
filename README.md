@@ -112,10 +112,7 @@ Bem-vindo à Landing Page simples em PHP! Esta página inclui um formulário de 
    git clone https://github.com/LaiFrance/PHP-Guia-de-Uso-do-PHP-no-Desenvolvimento-Web.git
 
    ```
-   Navegue até o diretório do projeto:
-```
-   cd landing-page-php
-```
+  
 # CRUD em PHP
 
 Aqui está uma tabela simples explicando as operações CRUD básicas em PHP.
